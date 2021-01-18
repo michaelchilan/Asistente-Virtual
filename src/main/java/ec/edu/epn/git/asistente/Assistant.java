@@ -27,6 +27,9 @@ public class Assistant {
         commands.add("Busca el documento");
         commands.add("Lee el documento");
         commands.add("Escribe en el documento");
+        commands.add("Eliminar el documento");
+        commands.add("Copiar el documento");
+        commands.add("Mover de carpeta al documento documento");
         commands.add("Salir Asistente");
         return commands;
     }
