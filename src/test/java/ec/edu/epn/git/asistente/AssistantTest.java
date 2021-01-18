@@ -6,9 +6,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class RecognizeVoiceTest {
+public class AssistantTest {
 
-    RecognizeVoice rv;
+    Assistant rv;
 
     @BeforeClass
     public static void setUpClass() {
@@ -18,7 +18,7 @@ public class RecognizeVoiceTest {
     @Before
     public void setUp() {
         System.out.println("setUp()");
-        rv = new RecognizeVoice();
+        rv = new Assistant();
     }
 
     @Test
